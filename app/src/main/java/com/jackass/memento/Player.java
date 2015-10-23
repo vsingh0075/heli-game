@@ -10,6 +10,7 @@ import java.util.Vector;
  */
 public class Player extends GameObject {
 
+    private final double GRAVITY = 9.8;
     private Bitmap spriteSheet;
     private Bitmap[] image;
     private int score;
@@ -82,5 +83,9 @@ public class Player extends GameObject {
 
     public void setUp(boolean b) {
         up = b;
+    }
+
+    public void resetDY() {
+        dy = 0;
     }
 }

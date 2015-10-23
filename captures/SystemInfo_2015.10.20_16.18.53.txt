@@ -1,0 +1,61 @@
+Applications Graphics Acceleration Info:
+Uptime: 1287937 Realtime: 8312160
+
+** Graphics info for pid 9513 [com.jackass.memento] **
+
+Recent DisplayList operations
+Save
+DrawRenderNode
+  DrawRenderNode
+    DrawRect
+  DrawRenderNode
+    DrawRenderNode
+      DrawRenderNode
+        DrawColor
+RestoreToCount
+DrawRect
+DrawColor
+Save
+DrawRenderNode
+  DrawRenderNode
+    DrawRect
+  DrawRenderNode
+    DrawRenderNode
+      DrawRenderNode
+        DrawColor
+RestoreToCount
+DrawRect
+DrawColor
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache                0 / 25165824
+  LayerCache                  0 / 16777216 (numLayers = 0)
+  Layers total          0 (numLayers = 0)
+  RenderBufferCache           0 /  2097152
+  GradientCache               0 /   524288
+  PathCache                   0 / 10485760
+  TessellationCache           0 /  1048576
+  TextDropShadowCache         0 /  2097152
+  PatchCache                  0 /   131072
+  FontRenderer 0 A8           0 /        0
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total        0 /        0
+Other:
+  FboCache                    0 /        0
+Total memory usage:
+  0 bytes, 0.00 MB
+
+Profile data in ms:
+
+	com.jackass.memento/com.jackass.memento.Game/android.view.ViewRootImpl@f63102c (visibility=0)
+View hierarchy:
+
+  com.jackass.memento/com.jackass.memento.Game/android.view.ViewRootImpl@f63102c
+  5 views, 4.71 kB of display lists
+
+
+Total ViewRootImpl: 1
+Total Views:        5
+Total DisplayList:  4.71 kB
+
